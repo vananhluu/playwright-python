@@ -17,4 +17,4 @@ with sync_playwright() as playwright:
     page.goto("https://demoqa.com/alerts")
     page.locator("//button[@id='alertButton']").click()
 
-    # page.close()
+    page.close()
