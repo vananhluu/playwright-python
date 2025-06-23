@@ -17,4 +17,5 @@ with sync_playwright() as playwright:
     page.goto("https://demoqa.com/alerts")
     page.locator("//button[@id='alertButton']").click()
 
+    # tai sao git PR  k an
     page.close()
